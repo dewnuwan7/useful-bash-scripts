@@ -14,7 +14,7 @@ All completed scripts are located in the repository's root directory. This index
 
 | Script Name | Description |
 | :--- | :--- |
-| `system_info.sh` | **COMPLETED:** Generates a formatted report on core system resources (CPU, Memory, Disk usage, Kernel version). |
+| `system_info.sh` | Displays a formatted report on core system and hardware resources (CPU, Memory, Disk usage, Kernel version). |
 | *[Future Script]* | *[To be added: Daily Backup Archiver]* |
 
 ---
@@ -23,7 +23,7 @@ All completed scripts are located in the repository's root directory. This index
 
 1.  **Clone the Repository:**
     ```bash
-    git clone [https://github.com/YourUsername/useful-bash-scripts.git](https://github.com/YourUsername/useful-bash-scripts.git)
+    git clone https://github.com/dewnuwan7/useful-bash-scripts.git
     cd useful-bash-scripts
     ```
 2.  **Make Executable:** Before running any script, ensure it has execute permissions:
