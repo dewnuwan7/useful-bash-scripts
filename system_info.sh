@@ -42,9 +42,9 @@ for iface in $(ip -o link show | awk -F': ' '{print $2}' | awk '{print $1}'); do
     # Skip loopback
     [[ "$iface" == "lo" ]] && continue
 
-    mac=$(ip -o link show "$iface" | awk '/link\/ether/ {print $2}')
+    mac=$(ip link show "$iface" | awk '/link\/ether/ {print $2}')
     ipv4=$(ip -o -4 addr show "$iface" | awk '{print $4}' | paste -sd ", " -)
-    ipv6=$(ip -o -6 addr show "$iface" | awk '{print $4}' | paste -sd ", " -)
+    ipv6=$(ip -o -6 addr show "$iface" | awk '$4 ~ /^fe80::/ {print $4}' | paste -sd ", " -)
 
     echo "Interface: $iface"
     echo "  MAC : ${mac:-N/A}"
