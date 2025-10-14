@@ -15,7 +15,7 @@ All completed scripts are located in the repository's root directory. This index
 | Script Name | Description |
 | :--- | :--- |
 | `system_info.sh` | Displays a formatted report on core system, hardware and network resources|
-| *[Future Script]* | *[To be added: Daily Backup Archiver]* |
+| 'archive_backup.sh' | Simple compressed backup script |
 
 ---
 
@@ -30,8 +30,6 @@ All completed scripts are located in the repository's root directory. This index
     ```bash
     chmod +x system_info.sh
     ```
-3.  **Review and Run:** Always examine the script's contents before running to understand its purpose and potential impact on your system or cloud environment.
-
 ---
 
 ## Contribution & Feedback
