@@ -17,7 +17,7 @@ All completed scripts are located in the repository's root directory. This index
 | `system_info.sh` | Displays a formatted report on core system, hardware and network resources|
 | `archive_backup.sh`  | Simple compressed backup script |
 | `batch_rename.sh`  | Batch renaming all files in one file type with a name prefix/suffix  |
-
+| `test_files.sh`  | Creates a bunch of dummy files with specified size.  |
 ---
 
 ## How to Use These Scripts
