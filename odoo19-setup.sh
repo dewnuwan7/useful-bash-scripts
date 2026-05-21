@@ -30,7 +30,7 @@ REPOS=(
 # Python dependencies to install inside the running odoo container
 # These mirror what you'd run as: pip install <name> --break-system-packages
 PYTHON_DEPS=(
-    ""
+    "qifparse"
 
     # Add more packages here as needed
 )
